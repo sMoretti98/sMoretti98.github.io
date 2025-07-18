@@ -1,6 +1,13 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
+/* FORCE DARK GRAY THEME */
+html, body, #main, #header, #footer {
+	background: #2a2a2a !important;
+	background-color: #2a2a2a !important;
+	background-image: none !important;
+}
+
 /*
 	Strata by HTML5 UP
 	html5up.net | @ajlkn
@@ -83,7 +90,13 @@ input, select, textarea {
 	}
 
 	body {
-		background: #000000;
+		background: #2a2a2a !important;
+	}
+
+	/* Force dark gray background on all main containers */
+	html, body, #main {
+		background: #2a2a2a !important;
+		background-color: #2a2a2a !important;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -206,7 +219,7 @@ input, select, textarea {
 	}
 
 	code {
-		background: #000000;
+		background: #2a2a2a;
 		border-radius: 0.35em;
 		border: solid 2px #404040;
 		font-family: "Courier New", monospace;
@@ -1817,7 +1830,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #000000;
+		background: #2a2a2a;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
 		color: inherit;
@@ -1856,7 +1869,7 @@ input, select, textarea {
 
 		select option {
 			color: #e0e0e0;
-			background: #000000;
+			background: #2a2a2a;
 		}
 
 		select:focus::-ms-value {
@@ -1921,7 +1934,7 @@ input, select, textarea {
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				background: #000000;
+				background: #2a2a2a;
 				border-radius: 0.35em;
 				border: solid 2px transparent;
 				content: '';
@@ -2591,12 +2604,8 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #000000;
-		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png");
-		background-position: top left;
-		background-repeat: repeat;
-		background-size: auto;
+		background-color: #2a2a2a !important;
+		background-image: none !important;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2772,7 +2781,7 @@ input, select, textarea {
 		-ms-box-sizing: content-box;
 		box-sizing: content-box;
 		-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-		background: #000000;
+		background: #2a2a2a;
 		border-radius: 0.35em;
 		box-shadow: 0 0.1em 0.15em 0 rgba(0, 0, 0, 0.15);
 		overflow: hidden;
@@ -2813,7 +2822,7 @@ input, select, textarea {
 			}
 
 		.poptrox-popup .caption {
-			background: #000000;
+			background: #2a2a2a;
 			bottom: 0;
 			cursor: default;
 			font-size: 0.9em;
@@ -3076,12 +3085,8 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				background-attachment: scroll;
-				background-color: #000000;
-				background-image: url("images/overlay.png");
-				background-position: top left;
-				background-repeat: repeat;
-				background-size: auto;
+				background-color: #2a2a2a !important;
+				background-image: none !important;
 				bottom: auto;
 				left: auto;
 				padding: 4em 4em 6em 4em;
