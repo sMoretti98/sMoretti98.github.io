@@ -1,6 +1,13 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
+/* FORCE DARK GRAY THEME */
+html, body, #main, #header, #footer {
+	background: #2a2a2a !important;
+	background-color: #2a2a2a !important;
+	background-image: none !important;
+}
+
 /*
 	Strata by HTML5 UP
 	html5up.net | @ajlkn
@@ -83,7 +90,13 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #2a2a2a !important;
+	}
+
+	/* Force dark gray background on all main containers */
+	html, body, #main {
+		background: #2a2a2a !important;
+		background-color: #2a2a2a !important;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -98,7 +111,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #f0f0f0;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -122,7 +135,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #787878;
+		color: #ffffff;
 		font-weight: 400;
 	}
 
@@ -135,7 +148,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #ffffff;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -190,7 +203,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px #efefef;
+		border-bottom: solid 2px #404040;
 		margin: 2em 0;
 	}
 
@@ -199,16 +212,16 @@ input, select, textarea {
 		}
 
 	blockquote {
-		border-left: solid 6px #efefef;
+		border-left: solid 6px #404040;
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 1.5em;
 	}
 
 	code {
-		background: #f7f7f7;
+		background: #2a2a2a;
 		border-radius: 0.35em;
-		border: solid 2px #efefef;
+		border: solid 2px #404040;
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -1817,7 +1830,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #f7f7f7;
+		background: #2a2a2a;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
 		color: inherit;
@@ -1855,8 +1868,8 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #787878;
-			background: #fff;
+			color: #e0e0e0;
+			background: #2a2a2a;
 		}
 
 		select:focus::-ms-value {
@@ -1921,7 +1934,7 @@ input, select, textarea {
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				background: #f7f7f7;
+				background: #2a2a2a;
 				border-radius: 0.35em;
 				border: solid 2px transparent;
 				content: '';
@@ -2380,7 +2393,7 @@ input, select, textarea {
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #f7f7f7;
+				background-color: #000000;
 			}
 
 		table td {
@@ -2591,12 +2604,8 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
-		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		background-color: #2a2a2a !important;
+		background-image: none !important;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2689,7 +2698,7 @@ input, select, textarea {
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px #404040;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
@@ -2772,7 +2781,7 @@ input, select, textarea {
 		-ms-box-sizing: content-box;
 		box-sizing: content-box;
 		-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-		background: #fff;
+		background: #2a2a2a;
 		border-radius: 0.35em;
 		box-shadow: 0 0.1em 0.15em 0 rgba(0, 0, 0, 0.15);
 		overflow: hidden;
@@ -2813,7 +2822,7 @@ input, select, textarea {
 			}
 
 		.poptrox-popup .caption {
-			background: #fff;
+			background: #2a2a2a;
 			bottom: 0;
 			cursor: default;
 			font-size: 0.9em;
@@ -3076,12 +3085,8 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				background-attachment: scroll;
-				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-				background-position: top left,						bottom center;
-				background-repeat: repeat,							no-repeat;
-				background-size: auto,							cover;
+				background-color: #2a2a2a !important;
+				background-image: none !important;
 				bottom: auto;
 				left: auto;
 				padding: 4em 4em 6em 4em;
